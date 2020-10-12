@@ -6,6 +6,8 @@ public class Precios {
     private int farenheith;
     private int revival;
     private int elAlquimista;
+    private int elPoder;
+    private int despertar;
 
     //Constructor
     public  Precios()
@@ -13,6 +15,8 @@ public class Precios {
         farenheith = 5000;
         revival = 12000;
         elAlquimista = 45000;
+        despertar = 156000;
+        elPoder = 88000;
     }
 
     //Accesadores y Mutadores
@@ -40,5 +44,20 @@ public class Precios {
         this.elAlquimista = elAlquimista;
     }
 
+    public int getElPoder() {
+        return elPoder;
+    }
+
+    public void setElPoder(int elPoder) {
+        this.elPoder = elPoder;
+    }
+
+    public int getDespertar() {
+        return despertar;
+    }
+
+    public void setDespertar(int despertar) {
+        this.despertar = despertar;
+    }
 
 }

@@ -39,6 +39,9 @@ import Clases.Precios;
         String libros = spinner.getSelectedItem().toString();
         Precios pc = new Precios();
 
+        pc.setFarenheith(7000);
+        pc.setRevival(22000);
+
 
         if (libros.equals("Farenheith")) {
             valor.setText("El precio de farenheith es: " + pc.getFarenheith());
@@ -51,6 +54,12 @@ import Clases.Precios;
         }
         if (libros.equals("(Elija un libro)")) {
             valor.setText("Ningun libro ha sido seleccionado" );
+        }
+        if (libros.equals("El Poder")) {
+            valor.setText("El precio de El Poder es: " + pc.getElPoder());
+        }
+        if (libros.equals("Despertar")) {
+            valor.setText("El precio de Despertar es: " + pc.getDespertar());
         }
     }
 

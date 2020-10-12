@@ -24,6 +24,8 @@ public class HomeAct extends AppCompatActivity {
         libros.add("Farenheith");
         libros.add("Revival");
         libros.add("El Alquimista");
+        libros.add("El Poder");
+        libros.add("Despertar");
 
         Intent i = new Intent(this, GithubAct.class);
         i.putExtra("listaLibros", libros);
